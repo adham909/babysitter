@@ -18,7 +18,7 @@
 
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light shadow">
-        <div class="container justify-content-center">
+        <div class="container">
           <a class="navbar-brand" href="#">
               <img src="imgs/logo.png" class="w-100" alt="Logo">
           </a>
@@ -47,12 +47,12 @@
       <!-- Dashboard -->
       <section class="dashboard">
           <div class="container">
-              <div class="row">
+              <div class="row mb-5 pb-4">
                   <div class="control-wrapper col-12 col-md-4">
                     <div class="control control-1 ">
                       <div class="text">
                           <p id="today-point-text">نقاط اليوم</p>
-                          <p>نقاط<span class="number" id="today-point-number">10</span></p>
+                          <p><span class="number" id="today-point-number">10</span> نقاط</p>
                       </div>
                       <img src="imgs/coin.png" alt="coin">
                     </div>
@@ -61,7 +61,7 @@
                     <div class="control control-2">
                       <div class="text">
                         <p id="month-point-text">نقاط اليوم</p>
-                        <p>نقاط<span class="number" id="month-point-number">10</span></p>
+                        <p><span class="number" id="month-point-number">150</span> نقاط</p>
                       </div>
                       <img src="imgs/star.png" alt="star">
                     </div>
@@ -69,11 +69,54 @@
                   <div class="control-wrapper col-12 col-md-4">
                     <div class="control control-3">
                         <div class="text">
-                            <p id="month-point-text">الجوائز</p>
+                            <p>الجوائز</p>
                             <p>شاهد الجوائز</p>
                         </div>
                         <img src="imgs/trophy.png" alt="">
                     </div>
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="col-12 col-md-6">
+                      <div class="task-wrapper py-2 px-3">
+                          <h4>مهمات اليوم</h4>
+                          <div class="task p-1 mb-1">
+                            <input type="checkbox" id="task1">
+                              <label for="task1">
+                                  المهمة الاولى
+                              </label>
+                          </div>
+
+                          <div class="task p-1 mb-1">
+                            <input type="checkbox" id="task2">
+                              <label for="task2">
+                                  المهمة الاولى
+                              </label>
+                          </div>
+
+                          <div class="task p-1 mb-1">
+                            <input type="checkbox" id="task3">
+                              <label for="task3">
+                                  المهمة الاولى
+                              </label>
+                          </div>
+
+                          <div class="task p-1 mb-1">
+                            <input type="checkbox" id="task4">
+                              <label for="task4">
+                                  المهمة الاولى
+                              </label>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-12 col-md-6">
+                      <div class="wise-wrapper">
+                          <h4 class="mb-3">حكمة اليوم</h4>
+                          <div class="text-pic">
+                              <img src="imgs/leader.png" alt="wise-1">
+                              <p class="wise-p" id="wise-1">العقل السليكم في الجسم السليم</p>
+                          </div>
+                      </div>
                   </div>
               </div>
           </div>
