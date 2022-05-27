@@ -1,0 +1,65 @@
+/** FONT **/
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900&display=swap');
+
+
+*{
+    font-family: 'Cairo', sans-serif;
+}
+
+
+/** Navbar **/
+nav{
+    background-color: #2980B9;
+}
+
+.navbar-brand{
+    width:80px
+}
+
+.navbar-light .navbar-nav .nav-link.active, 
+.navbar-light .navbar-nav .show>.nav-link,
+.navbar-light .navbar-nav .nav-link{
+     color: #FFF;
+}
+
+.navbar-light .navbar-nav .nav-link.active{
+    font-weight: bold;
+}
+
+.navbar-collapse{
+    justify-content: flex-end;
+}
+
+/** Welcoming **/
+.welcoming{
+    color: #2980B9;
+}
+
+.welcomingv .welcom-heading{
+    font-weight: bold;
+}
+
+/** Dashboard **/
+.control-wrapper .control{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 1rem;
+    padding-buttom: 1rem;
+    filter: drop-shadow(0px 10px 10px rgba(0, 0, 0, 0.25));
+}
+
+.control-wrapper .control-1{
+    background-color: #2C3E50;
+}
+
+.control-wrapper .control-2{
+    background-color: #8E44AD;
+}
+
+.control-wrapper .control-3{
+    background-color: #22A6B3;
+}
+.control img{
+    width: 100px;
+}

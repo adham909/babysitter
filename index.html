@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>دودي | صديقك المفضل</title>
+    
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.rtl.min.css">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/main.css">
+
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light shadow">
+        <div class="container justify-content-center">
+          <a class="navbar-brand" href="#">
+              <img src="imgs/logo.png" class="w-100" alt="Logo">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="#">الصفحة الرئيسية</a>
+              <a class="nav-link" href="#">ألعاب</a>
+              <a class="nav-link" href="#">كارتون</a>
+              <a class="nav-link" href="#">تعليمي</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Page Content -->
+      <section class="welcoming py-4">
+          <div class="container d-flex justify-content-center align-items-center flex-column">
+            <h3 class="welcom-heading">مرحبا صديقي <span> | عمر |</span></h3>
+            <p>قم بأنجاز المهام حتى تحصل على النقاط والجوائز</p>
+          </div>
+      </section>
+
+      <!-- Dashboard -->
+      <section class="dashboard">
+          <div class="container">
+              <div class="row">
+                  <div class="control-wrapper col-12 col-md-4">
+                    <div class="control control-1 ">
+                      <div class="text">
+                          <p id="today-point-text">نقاط اليوم</p>
+                          <p>نقاط<span class="number" id="today-point-number">10</span></p>
+                      </div>
+                      <img src="imgs/coin.png" alt="coin">
+                    </div>
+                  </div>
+                  <div class="control-wrapper col-12 col-md-4">
+                    <div class="control control-2">
+                      <div class="text">
+                        <p id="month-point-text">نقاط اليوم</p>
+                        <p>نقاط<span class="number" id="month-point-number">10</span></p>
+                      </div>
+                      <img src="imgs/star.png" alt="star">
+                    </div>
+                  </div>
+                  <div class="control-wrapper col-12 col-md-4">
+                    <div class="control control-3">
+                        <div class="text">
+                            <p id="month-point-text">الجوائز</p>
+                            <p>شاهد الجوائز</p>
+                        </div>
+                        <img src="imgs/trophy.png" alt="">
+                    </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+    <!-- Bootstrap Js -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Main Js -->
+    <script src="js/main.js"></script>
+</body>
+</html>
