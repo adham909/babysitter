@@ -5,7 +5,9 @@
 *{
     font-family: 'Cairo', sans-serif;
 }
-
+p , h1{
+    color: #2980B9;
+}
 /** Navbar **/
 nav{
     background-color: #2980B9;
@@ -33,7 +35,7 @@ nav .login_nav_img{
     background-color: #ECECEC;
     border: none;
 }
-.login form .submit button{
+.btn{
     background: #2980B9;
     box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25);
     padding: 12px 40px;
